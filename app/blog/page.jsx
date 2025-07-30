@@ -70,6 +70,16 @@ const posts = [
   ];
 const BlogPage = () => {
   return (
+    
+   <>
+       <section className="bg-[url('/Hero.jpg')] bg-cover bg-center] h-[300px] text-black ">
+        <div className=" flex items-center justify-center mx-auto pt-[80px]">
+          <h2 className="font-bold text-[36px]">Blog Page</h2>
+        </div>
+        <div className=" flex items-center justify-center mx-auto pt-1">
+          <Link href="/service">Blopg</Link>
+        </div>
+      </section>
    <Container className="pt-[120px]">
      <div className="  grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-10">
       {/* Left Section - Blog Posts */}
@@ -202,6 +212,8 @@ const BlogPage = () => {
       </aside>
     </div>
    </Container>
+   
+   </>
   );
 };
 

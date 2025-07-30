@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import {
   Phone,
   Mail,
@@ -53,6 +54,16 @@ export default function ContactPage() {
   };
 
   return (
+    
+   <>
+       <section className="bg-[url('/Hero.jpg')] bg-cover bg-center] h-[300px] text-black ">
+        <div className=" flex items-center justify-center mx-auto pt-[80px]">
+          <h2 className="font-bold text-[36px]">Contact Page</h2>
+        </div>
+        <div className=" flex items-center justify-center mx-auto pt-1">
+          <Link href="/service">Contact</Link>
+        </div>
+      </section>
    <Container className="">
      <div className="relative">
     
@@ -189,5 +200,6 @@ export default function ContactPage() {
       </div>
     </div>
    </Container>
+   </>
   );
 }
