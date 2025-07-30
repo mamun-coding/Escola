@@ -5,7 +5,7 @@ const Banner = () => {
     <section className="bg-[url('/main-banner.png')] bg-cover bg-center] text-white ">
       <div className='flex flex-col md:flex-row items-center justify-between pl-[300px] gap-[140px] '>
                {/* Left Content */}
-    <div className="max-w-[532px]   z-10">
+    <div className="max-w-[532px]   z-10 pt-[115px] pb-[197px]">
       <p className="font-bold text-[#4ADA85] text-[18px] leading-8">Click Learn Thrive</p>
       <h1 className="font-bold text-[59px] leading-18 pt-[11px] pb-[17px]">
         Unlock your potential through education
